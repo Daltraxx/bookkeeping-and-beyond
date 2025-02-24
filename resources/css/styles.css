@@ -1,4 +1,25 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 100%;
     font-family: 'Poppins', Helvetica, Arial, Helvetica, sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
