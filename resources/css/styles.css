@@ -2,6 +2,8 @@
     --brown-500: hsl(6, 23%, 49%); /*#996660*/
 
     --tan-500: hsl(34, 42%, 75%); /*#DAC3A5*/
+
+    --accent-blue: hsl(219, 49%, 47%); /*#3D67B4*/
 }
 
 /******************************************
@@ -102,6 +104,42 @@ nav a {
     margin-bottom: 1rem;
 }
 
+/*-----Accreditations Section*/
+.accreditations > * {
+    margin: 1rem 0;
+}
+
+address {
+    color: var(--accent-blue);
+    font-style: normal;
+}
+
+/*-----Footer*/
+
+
+/******************************************
+/* MODULES
+/*******************************************/
+
+
+/******************************************
+/* STATE
+/*******************************************/
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+a[href*="mailto"] {
+    text-decoration: underline;
+}
+
+.phone-number {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
