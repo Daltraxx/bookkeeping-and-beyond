@@ -46,22 +46,29 @@ a {
 }
 
 nav {
-    background-color: var(--brown-500);
     color: white;
+    background-color: var(--tan-500);
 }
 
 nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: .5rem 0;
     margin: 0;
 }
 
-nav ul li {
-    text-align: center;
-    width: 100%;
+nav li {
+    width: 60%;
     height: 2rem;
+    text-align: center;
+    background-color: var(--brown-500);
     border: 2px solid var(--tan-500);
+    border-radius: 5px;
+}
+
+nav li:not(:last-of-type) {
+    border-bottom: none;
 }
 
 nav a {
